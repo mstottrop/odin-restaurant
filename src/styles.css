@@ -1,0 +1,14 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+  height: 100dvh;
+}
+
+header {
+  justify-items: center;
+  grid-row: 1 / 1;
+}
+
+#content {
+  grid-row: span 2;
+}
